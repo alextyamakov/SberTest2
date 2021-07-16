@@ -15,7 +15,7 @@ public class MyRefactoringTest extends BaseTest {
         mainPage.selectMenuAllPrograms("Все страховые программы");
 
         AllProgramsPage allProgramsPage = new AllProgramsPage(driver);
-        allProgramsPage.selectTravelInsurance("Страхование для путешественников");
+        allProgramsPage.selectTravelInsurance("Страхование путешественников");
 
         TravelInsurancePage travelInsurancePage = new TravelInsurancePage(driver);
         String actualTitle = travelInsurancePage.title.getText();

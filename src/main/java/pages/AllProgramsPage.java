@@ -11,7 +11,7 @@ public class AllProgramsPage extends BasePage {
     @FindBy(xpath = "//*[@class='page-header']/*")
     public WebElement title;
 
-    @FindBy(xpath = "//h3[contains(text(),'Страхование для путешественников')]")
+    @FindBy(xpath = "//h3[contains(text(),'Страхование путешественников')]")
     public WebElement TravelInsurance;
 
     public AllProgramsPage(WebDriver driver){
