@@ -55,6 +55,7 @@ public class BaseTest {
     }
 
     protected void fillField(By locator, String value) {
+        driver.findElement(locator).click();
         driver.findElement(locator).clear();
         driver.findElement(locator).sendKeys(value);
     }
